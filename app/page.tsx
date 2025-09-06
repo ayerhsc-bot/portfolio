@@ -17,7 +17,7 @@ export default function Home() {
       <div className="fixed inset-0 -z-10 pointer-events-none">
         <AuroraBackground>{null}</AuroraBackground>
       </div>
-      <div className="relative z-10 min-h-screen p-8 pb-20 gap-16 sm:p-20">
+      <div className="relative z-10 min-h-screen p-8 pb-20 gap-16 sm:p-20 snap-y snap-mandatory">
         {/* Floating Dock */}
         <FloatingDock
           desktopClassName="fixed bottom-6 left-1/2 -translate-x-1/2 z-50"
@@ -194,14 +194,14 @@ export default function Home() {
               </p>
               <div className="flex gap-6 items-center justify-center flex-col sm:flex-row">
                 <a
-                  href="mailto:your.email@example.com"
+                  href="mailto:sarkarshreya624@gmail.com"
                   className="group relative px-8 py-4 bg-gradient-to-r from-cyan-600 to-blue-600 rounded-full text-white font-semibold text-lg shadow-2xl hover:shadow-cyan-500/25 transition-all duration-300 hover:scale-105 hover:from-cyan-500 hover:to-blue-500"
                 >
                   <span className="relative z-10">Send Email</span>
                   <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-blue-400 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         </a>
         <a
-                  href="https://linkedin.com/in/yourprofile"
+                  href="https://www.linkedin.com/in/shreya-sarkar-b23586243/"
           target="_blank"
           rel="noopener noreferrer"
                   className="px-8 py-4 border-2 border-white/30 rounded-full text-white font-semibold text-lg backdrop-blur-sm hover:bg-white/10 hover:border-white/50 transition-all duration-300 hover:scale-105"
