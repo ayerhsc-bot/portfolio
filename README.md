@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Shreya Sarkar — Portfolio
 
-## Getting Started
+Personal site for an aspiring software engineer transitioning from law. It highlights projects like Beatsify, skills, education, and experience. Built with Next.js, TypeScript, and Tailwind CSS. Deployed on Vercel.
 
-First, run the development server:
+### Quickstart
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# open http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Edit the homepage at `app/page.tsx`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Beatsify — project overview
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Beatsify is a lightweight Next.js front end backed by a Node-based Spotify API wrapper. The app searches tracks, builds recommendations using simple heuristics (artist similarity, keyword matching, album diversity), and can create private playlists on behalf of an authorized user. The service uses a small axios-based Spotify client with request/response interceptors for token handling. Beatsify stores auth tokens in localStorage for session flow and relies on Spotify developer authorization, so the deployed demo requires a developer-authorized app and is not publicly distributable without proper Spotify API credentials.
 
-## Learn More
+- Live demo: https://beatsify.shreya.dev
+- Code: GITHUB_LINK
 
-To learn more about Next.js, take a look at the following resources:
+See `DESIGN.md` for recommendation strategies and API flow.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Editorial / implementation notes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Use concise screenshots or a GIF for Beatsify rather than full-length video.
+- Show the GitHub link prominently; include `DESIGN.md`.
+- Make the Spotify authorization note visible on the Beatsify project card to avoid confusion.
+- Prioritize mobile responsiveness and readable type sizes.
+- Keep the hero CTA above the fold.
 
-## Deploy on Vercel
+### SEO
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Title: "Shreya Sarkar — Aspiring Software Engineer | BA LL.B"
+- Description: "Law graduate transitioning to software engineering. Building full-stack projects (Beatsify), completing Harvard CS50x, practicing DSA. Seeking Google Software Engineering Apprenticeship."
